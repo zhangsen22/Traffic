@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">IconTest</string>
+    <string name="test">日期选择</string>
+    <string name="date_selection">日期选择</string>
+    <string name="data_flow">数据流量</string>
+    <string name="wifi_traffic">WiFi流量</string>
+    <string name="today">今天</string>
+    <string name="this_month">本月</string>
+    <string name="network_type">网络类型</string>
+    <string name="all">全部</string>
+    <string name="GB"></string>
+    <string name="used_flow">已用流量</string>
+    <string name="download_traffic">下载</string>
+    <string name="upload_traffic">上传</string>
+    <string name="application_traffic_ranking">应用流量排行</string>
+    <string name="flow_details">流量明细</string>
+    <string name="time">时间</string>
+    <string name="total_flow">总流量</string>
+
+</resources>

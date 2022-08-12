@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_height="match_parent"
+        android:text="@string/time"
+        />
+
+    <TextView
+        android:id="@+id/tv_total_flow"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_height="match_parent"
+        android:text="@string/total_flow"
+        />
+
+    <TextView
+        android:id="@+id/tv_upload_traffic"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:text="@string/upload_traffic"
+        />
+
+    <TextView
+        android:id="@+id/tv_download_traffic"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:text="@string/download_traffic"
+        />
+
+
+</LinearLayout>

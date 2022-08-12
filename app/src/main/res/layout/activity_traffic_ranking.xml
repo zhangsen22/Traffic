@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrafficRankingActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="流量排行"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/rg"
+        android:layout_height="50dp">
+
+        <RadioButton
+            android:id="@+id/rb_data_flow"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textColor="@drawable/radiobutton_background"
+            android:checked="true"
+            android:button="@null"
+            android:text="@string/data_flow"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_wifi_traffic"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:checked="false"
+            android:textSize="16sp"
+            android:textColor="@drawable/radiobutton_background"
+            android:button="@null"
+            android:layout_height="match_parent"
+            android:text="@string/wifi_traffic"
+            />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/ll_date_selected"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_selection"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/today"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>
